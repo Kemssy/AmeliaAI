@@ -7,13 +7,13 @@
 
 This project implements a real-time fraud detection system for cryptocurrency trading using Go. The system fetches price data from the different sources, for instance Pump.fun, Raydium, builds an isolation forest for anomaly detection, and reports detected anomalies along with statistics. The system is designed to run continuously, fetching new data at regular intervals and processing it to detect potential fraudulent activities.
 
-## Features
+## ✨ Features
 
-- **Enabled Sources**: Perform operations based on enabled sources.
-- **Real-time Data Fetching**: Continuously fetches enabled source cryptocurrency price data, e.g., Pump.fun, Raydium.
-- **Isolation Forest**: Implements an isolation forest for anomaly detection.
-- **Anomaly Detection**: Detects anomalies in the price data and reports them.
-- **Statistics Reporting**: Provides statistics on the total number of items and anomalies detected.
+- 🛠️ **Enabled Sources**: Perform operations based on enabled sources.
+- 📜 **Real-time Data Fetching**: Continuously fetches enabled source cryptocurrency price data, e.g., Pump.fun, Raydium.
+- 🌳 **Isolation Forest**: Implements an isolation forest for anomaly detection.
+- 🪐 **Anomaly Detection**: Detects anomalies in the price data and reports them.
+- 📚 **Statistics Reporting**: Provides statistics on the total number of items and anomalies detected.
 
 ## Installation
 
