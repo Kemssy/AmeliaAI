@@ -24,10 +24,10 @@ To install and run this project, follow these steps:
 ### Use the Starter (Recommended)
 
 ```bash
-git clone https://github.com/Kemssy/AmeliaAI.git
-cd AmeliaAI-starter
-cp .env.example .env
-pnpm i && pnpm build && pnpm start
+  git clone https://github.com/Kemssy/AmeliaAI.git
+  cd AmeliaAI-starter
+  cp .env.example .env
+  pnpm i && pnpm build && pnpm start
 ```
 
 1. **Clone the repository:**
