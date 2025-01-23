@@ -34,7 +34,8 @@ To install and run this project, follow these steps:
    ```bash
    git clone [https://github.com/Kemssy/AmeliaAI]
    cd trading-fraud-detection
-      ```
+   ```
+
 
   2. **Run and Test the application:**:
    ```bash
