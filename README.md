@@ -31,13 +31,13 @@ pnpm i && pnpm build && pnpm start
 ```
 
 1. **Clone the repository:**
-   ```sh
+   ```bash
    git clone [https://github.com/Kemssy/AmeliaAI]
    cd trading-fraud-detection
       ```
 
 2. **Run and Test the application:**:
-   ```sh
+   ```bash
    go mod tidy
    go run cmd/main.go
    ```
