@@ -5,7 +5,7 @@ This project implements a real-time fraud detection system for cryptocurrency tr
 ## Features
 
 - **Enabled Sources**: Perform operations based on enabled sources.
-- **Real-time Data Fetching**: Continuously fetches enabled source cryptocurrency price data, e.g., Binance, CoinGecko.
+- **Real-time Data Fetching**: Continuously fetches enabled source cryptocurrency price data, e.g., Pump.fun, Raydium.
 - **Isolation Forest**: Implements an isolation forest for anomaly detection.
 - **Anomaly Detection**: Detects anomalies in the price data and reports them.
 - **Statistics Reporting**: Provides statistics on the total number of items and anomalies detected.
@@ -31,7 +31,7 @@ The main entry point of the application is the main.go file. The application fet
 
 ## Project Structure
 - `main.go`: Entry point of the application.
-- `source/source.go`: Contains the source e.g., BinanceSource struct and methods for fetching price data.
+- `source/source.go`: Contains the source e.g., PumpSource struct and methods for fetching price data.
 - `procedure/isolation_forest.go`: Contains functions for building the isolation forest.
 - `detect/anomalies.go`: Contains functions for detecting anomalies.
 
@@ -45,7 +45,7 @@ Anomalies are detected based on the anomaly score. The score is calculated using
 ## Further Improvements
 ### Enhanced Data Sources
 #### Additional Data Sources: 
-Integrate more data sources, including other major exchanges (e.g., Kraken, Coinbase) and blockchain data providers. This diversity can improve the robustness of anomaly detection.
+Integrate more data sources, including other major exchanges (e.g., Pump.fun, Raydium) and blockchain data providers. This diversity can improve the robustness of anomaly detection.
 
 ### Improved Anomaly Detection Techniques
 #### Hybrid Models: 
@@ -93,4 +93,4 @@ Implement mechanisms for continuous model retraining and adaptation to evolving 
 Incorporate a feedback loop where detected anomalies can be reviewed and labeled by experts, improving the training data and model accuracy over time.
 
 ## Acknowledgements
-This project uses data from Binance and CoinGecko APIs.
+This project uses data from Dextools and GOAT APIs.
