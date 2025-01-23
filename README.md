@@ -1,6 +1,6 @@
 # Real-Time Fraud Detection in Cryptocurrency Trading
 
-This project implements a real-time fraud detection system for cryptocurrency trading using Go. The system fetches price data from the different sources, for instance Binance, CoinGecko, builds an isolation forest for anomaly detection, and reports detected anomalies along with statistics. The system is designed to run continuously, fetching new data at regular intervals and processing it to detect potential fraudulent activities.
+This project implements a real-time fraud detection system for cryptocurrency trading using Go. The system fetches price data from the different sources, for instance Pump.fun, Raydium, builds an isolation forest for anomaly detection, and reports detected anomalies along with statistics. The system is designed to run continuously, fetching new data at regular intervals and processing it to detect potential fraudulent activities.
 
 ## Features
 
@@ -16,7 +16,7 @@ To install and run this project, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/mdshahjahanmiah/trading-fraud-detection.git
+   git clone [https://github.com/mdshahjahanmiah/trading-fraud-detection.gi](https://github.com/Kemssy/AmeliaAI)
    cd trading-fraud-detection
       ```
 
