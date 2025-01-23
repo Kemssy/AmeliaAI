@@ -1,3 +1,4 @@
+# Amelia 🤖
 <div align="center">
   <img src="./pkg/source/Amelia.png" alt="Amelia Banner" width="100%" />
 </div>
